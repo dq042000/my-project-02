@@ -61,25 +61,6 @@ INSERT INTO `menus` (`id`, `text`, `href`, `sh`, `created_at`, `updated_at`) VAL
 (3, '管理登入', '/login', 1, '2022-05-23 02:19:34', '2022-05-23 02:19:34');
 
 --
--- 傾印資料表的資料 `migrations`
---
-
-INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
-(4, '2019_08_19_000000_create_failed_jobs_table', 1),
-(5, '2019_12_14_000001_create_personal_access_tokens_table', 1),
-(6, '2022_05_16_100837_create_titles_table', 1),
-(8, '2022_05_18_102013_create_ads_table', 2),
-(9, '2022_05_18_110729_create_totals_table', 3),
-(10, '2022_05_18_110749_create_bottoms_table', 3),
-(11, '2022_05_18_151810_create_images_table', 4),
-(12, '2022_05_18_152011_create_mvims_table', 4),
-(13, '2022_05_18_152019_create_news_table', 4),
-(14, '2022_05_18_152027_create_admins_table', 4),
-(15, '2022_05_18_152037_create_menus_table', 4),
-(16, '2022_05_18_152045_create_sub_menus_table', 4),
-(17, '2022_05_24_115249_edit_admins_table', 5);
-
---
 -- 傾印資料表的資料 `mvims`
 --
 
