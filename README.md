@@ -51,6 +51,16 @@ vi ./web/config/app.php
 vi ./web/config/database.php
 ```
 
+## 安裝資料庫
+1. 建立 `mybook` 資料庫
+
+2. 執行 Migrate
+```
+php ./web/artisan migrate:fresh
+```
+
+3. 打開 `phpMyAdmin` 匯入 `./web/db/mybook.sql`
+
 ## 開啟瀏覽器
 
     網站
