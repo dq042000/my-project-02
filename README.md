@@ -19,20 +19,6 @@
   :wq
 ```
 
-## 切換開發環境分支
-
-  - master
-  - production : 正式環境
-  - develop : 開發環境
-```
-  git checkout develop
-```
-
-## db 設定
-```
-mkdir DB
-```
-
 ## docker 設定檔
 
 ```
@@ -50,7 +36,7 @@ docker-compose up -d --build
 ## 安裝 php library
 
 ```
-docker exec -ti my-project-01_php-fpm_1 composer install
+docker exec -ti my-project-02_php-fpm_1 composer install
 ```
 
 ## 設定 Laravel
